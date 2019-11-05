@@ -20,3 +20,19 @@ function printAllPossibleOrderedPairs(items) {
     });
   }
 printAllPossibleOrderedPairs([2,4,67,8,8])//
+
+
+function sayHiNTimes(n) {
+    for (let i = 0; i < n; i++) {
+      console.log('hi');//?
+    }
+  }
+  sayHiNTimes([0,05,6,7,8])//?
+
+  function printAllItems(items) {
+    items.forEach(item => {
+      console.log(item);
+    });
+  }
+
+
