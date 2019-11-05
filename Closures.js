@@ -1,7 +1,7 @@
 // Closure is a function that access outside its self for example
 const message = 'The British are coming!';//?
     function sayMessage(){
-        alert(message)//?
+        alert(message)
         // Here we have access to message,
         // even though it's declared outside this function!
     }
@@ -29,12 +29,12 @@ return element => {
 // giving it a new, unique id if it doesnt have the id yet
 
 let nextGeneratedId = 0;
-const qetUniqueId = element => {
+const getUniqueIds = element => {
     if(!element.id){
-        element.id = `generaged-uid-${nextGeneratedId}`;
+        element.id = `generated-uid-${nextGeneratedId}`;
         nextGeneratedId++;
     }
-    return element.id;
+    return element.id;//?
 
     //.. 
     // Somewhere else in the codebase
