@@ -11,7 +11,7 @@ function squareArrayInPlace(intArray){
 
 
 
-function squareArrayOutOfPlace(intArray){
+function squaredArrayOutOfPlace(intArray){
     
     //we allocate a new array that we'll fill in with the new values
 
@@ -26,7 +26,9 @@ function squareArrayOutOfPlace(intArray){
 
 }
 
-squareArrayOutOfPlace([67])
+squaredArrayOutOfPlace([67])
+
+
 
 
 const originalArray = [2,3,4,5];
