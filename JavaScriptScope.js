@@ -1,3 +1,5 @@
+
+//Function level scope
 var text = 'outside';
 function logIt(){
     console.log(text);
@@ -78,4 +80,4 @@ function logIt(){
     text = 'inside'
 
 }
-logIt()
+logIt()//?

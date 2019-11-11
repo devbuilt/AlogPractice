@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Testing</title>
+   <script type="text/javascript">
+   
+            const prizes = ['A Unicorn', 'A Hug!', 'Fresh Laudry'];
+
+            for(let btnNum = 0; btnNum < prizes.length; btnNum++){
+
+                //For each of our buttons, when the user clicks it..
+                document.getElementById(`btn-${btnNum}`).onclick = () = (fronzenBtnNum => {
+                    return () => {
+                        //Tell her what she wont
+                        alert(prizes[fronzenBtnNum])
+                    }
+
+                })(btnNum); //LOOK! We're passing btnNum to our ononymous function here!
+            };
+
+   </script>
+</head>
+<body>
+
+ 
+</body>
+</html>
